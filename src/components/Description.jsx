@@ -6,12 +6,11 @@ const Description = () => {
   return (
     <div>
       <div>
-    {/* <div>Description</div>
+     
+      
 
       <motion.img 
-      width={'15%'}
-      src='/img/icon.png'
-      alt=''
+      
 
         //анимация
         animate={{rotate:360}}
@@ -41,8 +40,10 @@ const Description = () => {
           type:'tween'
         }}
         >
-            Текст который появится 
-        </motion.p> */}</div>
+             
+        </motion.p> 
+        
+        </div>
         
         <motion.div id='div1'
 
@@ -60,8 +61,7 @@ const Description = () => {
           duration:2
         }}
         >
-          Complete documentation of the Framer Motion animation library. 
-          A production-ready motion library for React.</motion.div>
+          Плавающая надпись</motion.div>
 
           <motion.div id='div2'
           initial={{
@@ -81,11 +81,11 @@ const Description = () => {
             width={850}
 
             initial={{
-              opacity:0.6
+              opacity:0.7
             }}
 
             transition={{
-              duration:5
+              duration:1
             }}
 
             whileTap={{rotate:360}}/>
@@ -161,7 +161,7 @@ const Description = () => {
 
             <motion.button className='btn btn-primary'
             whileHover={{
-              scale:1.2
+              scale:-1.2
             }}>
             Нажми</motion.button>
             </div>

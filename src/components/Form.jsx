@@ -15,13 +15,13 @@ import {
 const colorOptions={color:'purple'}
 const centerPolygon=[
     [
-        [55.790823, 37.539031],
-        [55.688479, 37.521845],
-        [55.690906, 37.775819],
-        [55.813141, 37.760065]
+        [59.9306, 30.3141],
+        [59.9300, 30.3351],
+        [59.9452, 30.3385],
+        [59.9427, 30.3158]
     ]
 ]
-const center=[55.769667, 37.627671]
+const center=[59.9344, 30.3247]
 
 const Form = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
